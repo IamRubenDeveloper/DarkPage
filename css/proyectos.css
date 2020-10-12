@@ -1,0 +1,14 @@
+/*El selector * inidica las propiedads
+ * iniciales de cada elemento*/
+/*----------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'swis721-ltex-bt', sans-serif;;	
+    }
+  
+  body{
+    width: 100%;
+    min-width: 275px;
+    max-width: 7680px;
+  } 
