@@ -4,11 +4,48 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'swis721-ltex-bt', sans-serif;;	
-    }
-  
-  body{
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;	
+  }
+/*-------------------HEADER-------------------------------*/
+header{
+  background: #072348;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: rgba(160, 200, 188, 0.8);
+  transition: 0.4s ease-in-out;
+}
+/*--------Encabezado titular-----------*/
+  .enca_1{
     width: 100%;
-    min-width: 275px;
-    max-width: 7680px;
-  } 
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .enca_1 img{
+    width: 100%;
+    
+  }
+/*---------footer---------*/
+footer{
+  background: #2E578C;
+  color: #fff;
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}

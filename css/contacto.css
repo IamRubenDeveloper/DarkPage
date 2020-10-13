@@ -4,11 +4,135 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'swis721-ltex-bt', sans-serif;;	
-    }
-  
-  body{
-    width: 100%;
-    min-width: 275px;
-    max-width: 7680px;
-  } 
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;	
+  }
+/*-------------------HEADER-------------------------------*/
+header{
+  background: #072348;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: rgba(160, 200, 188, 0.8);
+  transition: 0.4s ease-in-out;
+}
+/*------------------section1--------------*/
+.padre{
+  width: 100%;
+}
+.padre img{
+  width: 100%;
+}
+/*----------------------PREGUNTAS/FORMULARIO----------------------*/
+.preguntas{
+  width: 100%;
+  height: 700px;
+  background: #384D8B;
+  padding-top: 60px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: 6px 12px 35px #000;
+}
+#control1{
+  margin-top: 50px;
+}
+.controls{
+  width: 90%;
+  background: #3A6BAA;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #707070;
+  font-size: 20px;
+  color: #fff;
+}
+
+.controlsmessage{
+  margin-top: 0px;
+  width: 90%;
+  height: 120px;
+  background: #3A6BAA;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #707070;
+  font-size: 20px;
+  color: #fff;
+}
+ 
+.botons{
+  background: #3A6BAA;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #707070;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.preguntas p{
+  margin-top: 25px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.preguntas h2{
+  height: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.preguntas a{
+color: #fff;
+text-decoration: none;
+}
+
+.preguntas a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.preguntas .botons{
+  width: 40%;
+  height: 50px;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.padrebotons{
+  text-align: center;
+}
+
+.padrecontrols{
+  text-align: center;
+}
+/*---------footer---------*/
+footer{
+  background: #2E578C;
+  color: #fff;
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
